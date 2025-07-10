@@ -39,7 +39,7 @@ for n in names:
 # Task B: enumerate over upper_names
 for idx, name in enumerate(upper_names, start=1):
        # your code here
-       print(idx, name)
+       print(f'{idx}. {name}')
 
 # Task C: demo two list methods
 # 1. insert
